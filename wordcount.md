@@ -36,6 +36,9 @@ Contents
 Introduction
 ---
 
+The purpose of this document is to discuss techniques for accurate and consistent word count,
+particularly for translation interchange purposes.
+
 References
 ---
 
