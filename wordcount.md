@@ -16,7 +16,7 @@ ULI: Word Count
 Summary
 ---
 
-This document is a technical note on word count.
+The purpose of this document is to collect requirements and discuss techniques for accurate and consistent word count, particularly for translation interchange purposes.
 
 Status
 ---
@@ -36,11 +36,20 @@ Contents
 Introduction
 ---
 
-The purpose of this document is to discuss techniques for accurate and consistent word count,
-particularly for translation interchange purposes.
+One of the challenges of translation interoperability is objectively measuring the difficulty of a particular translation workload. A common metric used is the word count. However, methods for counting words vary across different systems and languages.
+
+Some examples will suffice. First, Thai is written without space characters between words, as is Japanese and Chinese. Should numbers be included or not included? Are Mongolian suffixes considered a separate word or not?
+
+There are existing standards relating to word segmentation such as [UAX29](http://www.unicode.org/reports/tr29), as well as existing standards which relate to word count specifically, [GMX-V](http://www.unicode.org/uli/pas/gmx-v/).
+
+The purpose of this document is to collect requirements and discuss techniques for accurate and consistent word count, particularly for translation interchange purposes.
 
 References
 ---
+
+* [UAX29](http://www.unicode.org/reports/tr29) Unicode Standard Annex #29: Unicode Text Segmentation
+
+* [GMX-V](http://www.unicode.org/uli/pas/gmx-v/) Global Information Management Metrics Volume (GMX-V) 1.0 Specification
 
 Modifications
 ---
